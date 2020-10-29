@@ -1,0 +1,22 @@
+src/test/java  folder 
+actions   folder 
+	OrderActions  class
+base
+	LoadProperties
+enums
+	Products
+	Url
+pages
+	HomePage
+	SignInPage
+	ProductPage
+	ShoppingCartPage
+	ShoppingCartReviewPage
+
+properties
+	user.properties
+testcases
+	PurchaseOrderTest
+utils
+	CommonUtils
+	DriverUtils
