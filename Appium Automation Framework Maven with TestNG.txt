@@ -1,0 +1,58 @@
+
+
+Folder stucture of Test based on TEST NG and Maven project
+----------------------------------------------
+
+Step1 >>
+1... Install TestNG >> pre requites
+2... Create new maven project >>
+
+3...Add required lib/dependencies in pom.xml
+	3.1 Appium java client
+	3.2 Selenium java
+	3.3 TestNG
+
+4......Savve >> Clean and build.
+
+5....Create 2 folder under src/test/java
+	tests
+	pages
+
+
+6....Create 1 folder under src/test/resorces for native apps
+	apps >> will store all .apk , .ipa and app application files
+
+7.... Create a class .java file uder tests as Baseclass
+	All desirecapabilities 
+	
+8..    Create setup and teardown methods inside this folder.
+	Annotate with testng anotations
+
+
+9...  add code for capabilities for mobile emulators.
+
+10... Add emulator details 
+
+11... Start Appium server .. 
+
+12...Ccheck Appium server is working with emulator >> Qucik check a run and Test ones.
+
+13... Add test class and etend the BaseClass.
+
+14. ...
+
+
+
+
+
+
+Create project >> 
+
+
+
+
+
+
+
+
+
